@@ -1,7 +1,7 @@
 // LeetCode 26 - Remove Duplicates from Sorted Array
 // Time Complexity: O(n)
 // Space Complexity: O(1)
-
+    // package Week_1.Day_1;
 public class DuplicatesSortedArray {
     public int removeDuplicates(int[] nums) {
 
