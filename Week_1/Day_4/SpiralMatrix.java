@@ -2,6 +2,7 @@
  package Week_1.Day_4;
   
  import java.util.ArrayList;
+ import java.util.List;
  
  public class SpiralMatrix{
    
@@ -46,10 +47,8 @@
 
         return result;
     }
-
-    
        public static void main (String[] args){
-    SprialMatrix obj=new SpiralMatrix();
+      SpiralMatrix obj=new SpiralMatrix();
     int [][]matrix={{1,2,3},{56,6,7},{8,1,9}};
         List<Integer>result=obj.spiralOrder(matrix);
         System.out.println(result);
