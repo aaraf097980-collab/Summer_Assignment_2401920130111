@@ -5,7 +5,7 @@ package Week_2.Day_1;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Queue;
-
+    
 public class FirstUniqueChar {
      public int firstUniqChar(String s) {
         //  create map frquency store krne ke liye;
@@ -27,7 +27,7 @@ public class FirstUniqueChar {
      if (Q.isEmpty()){
         return -1;
      }
-     return Q.peek();
+     return Q.peek(); 
 
      }
      public static void main (String [] args){
