@@ -6,7 +6,7 @@ import java.util.List;
 
 public class GenerateParenthesis {
      public List<String> generateParenthesis(int n){
-        List<String> []dp= new List[n+1];
+       List<String>[] dp = new List[n + 1];
               if (n < 0) {
             return new ArrayList<>();
               }
