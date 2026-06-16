@@ -37,7 +37,7 @@ public ListNode middleNode(ListNode head) {
        ListNode middle = obj.middleNode(head);
          System.out.print("[");
 
-    while (middle != null) {
+       while (middle != null) {
         System.out.print(middle.val);
 
         if (middle.next != null) {
